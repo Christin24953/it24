@@ -48,3 +48,12 @@ class StudentList {
             return fullName.toLowerCase().includes(query.toLowerCase());
         });
 
+        searchListContainer.innerHTML = '';
+
+        this.renderStudentList(filteredStudents, searchListContainer);
+    }
+    
+}
+
+const studentList = new StudentList('applet-4.json');
+
