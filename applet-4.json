@@ -1,0 +1,21 @@
+[
+    {
+      "student_id": 1,
+      "student_name": "batman",
+      "student_program": "cagayan",
+      "student_enrolled_date": "2023-01-15"
+    },
+    {
+      "student_id": 2,
+      "student_name": "superman",
+      "student_program": "manolo",
+      "student_enrolled_date": "2023-02-20"
+    },
+    {
+      "student_id": 3,
+      "student_name": "mama and papa",
+      "student_program": "life",
+      "student_enrolled_date": "2023-03-10"
+    }
+  ]
+  
