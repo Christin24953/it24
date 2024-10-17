@@ -68,3 +68,8 @@ class WeatherService extends WeatherApp {
                         alert('Unable to retrieve weather data for your location.');
                     }
                 },
+
+                () => {
+                    alert('Unable to retrieve your location. Please allow location access.');
+                }
+            );
