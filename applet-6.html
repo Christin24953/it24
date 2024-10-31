@@ -61,43 +61,24 @@
                             <li><a class="dropdown-item" href="applet-6.html">todo list</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search" onsubmit="return false;">
-                    <input id="searchInput" class="form-control me-2" type="search" placeholder="Search" aria-label="Search" oninput="searchCards()">
-                    <button class="btn btn-outline-success" type="button" onclick="searchCards()">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 </body>
-<div class="container">
-
-    <div class="input-group flex-nowrap">
-  
-        <input type="text"  id="apiInput" class="form-control" placeholder="APIKEY" >
-      </div>
-    <h1>Weather App</h1>
-
-    
-    <input type="text" id="cityInput" placeholder="Enter city name" />
-    <button id="getWeatherBtn" class="btn btn-primary">Get Weather</button>
-
-    
-    <button id="getLocationBtn" class="btn btn-secondary">Use My Location</button>
-    
-    <div id="weatherCard" class="weather-card" style="display: none;">
-        <br>
-        <h2 id="cityName"></h2>
-        <p id="temperature"></p>
-        <p id="description"></p>
-        <p id="humidity"></p>
-        <p id="windSpeed"></p>
+<div class="CONTAINER">
+    <div class="container-fluid" style="max-width: 40%;">
+        <h2 class="text-center">To-Do List</h2>
+           <div class="input-group mb-4">
+            <textarea class="form-control" style="border-radius: 10px;" id="todoInput" placeholder="Add a new task"  rows="3"></textarea>
+               <div class="input-group-append" style="margin-left: .5rem;">
+                  <button class="btn btn-primary" id="addButton">Save</button>
+               </div>
+                  <ul id="todoList" class="list-group"></ul>
+        </div>
     </div>
+
 </div>
-<script src="applet-5.js"></script>
+<script src="applet-6.js"></script>
 </body>
 
 </html>
